@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 
 // Pin where NeoPixel data input is connected
-#define PIN            5    // Pin 6 on Arduino for NeoPixel data
+#define PIN            5    // Pin 5 on Arduino for NeoPixel data
 // Number of LEDs in the NeoPixel ring
 #define NUMPIXELS      12   // Set the correct number for your NeoPixel ring
 int sum = 0;
