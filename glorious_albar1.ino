@@ -27,17 +27,17 @@ void circulatingEffect() {
   }
   
   // Create a circulating effect by lighting up each pixel one by one
-  for (int i = 0; i < strip.numPixels(); i++) {
+  for (int i = 0; i < strip.numPixels(); i++) { //if want to start f4rom left --
     if (sum>5)
       sum = 0;
     // Light up the current LED (red color in this case)
-    strip.setPixelColor(sum, strip.Color(255, 4, 12));// Red color
-    strip.setPixelColor(sum+1, strip.Color(250, 76, 46));// Red color
-    strip.setPixelColor(sum+2, strip.Color(49, 22, 90));// Red color
-    strip.setPixelColor(sum+3, strip.Color(57, 11, 138));// Red color
-    strip.setPixelColor(sum+4, strip.Color(34, 13, 235));// Red color
-    strip.setPixelColor(sum+5, strip.Color(13, 65, 245));// Red color
-    strip.setPixelColor(sum+6, strip.Color(76, 90, 45));// Red color
+    strip.setPixelColor(sum, strip.Color(255, 4, 12));
+    strip.setPixelColor(sum+1, strip.Color(250, 76, 46));
+    strip.setPixelColor(sum+2, strip.Color(49, 22, 90));
+    strip.setPixelColor(sum+3, strip.Color(57, 11, 138));
+    strip.setPixelColor(sum+4, strip.Color(34, 13, 235));
+    strip.setPixelColor(sum+5, strip.Color(13, 65, 245));
+    strip.setPixelColor(sum+6, strip.Color(76, 90, 45));
 
  
     
